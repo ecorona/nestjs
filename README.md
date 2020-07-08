@@ -11,26 +11,29 @@ $ npm install
 ## Ejecutar
 
 ```bash
-# defautls
+# defaults
 $ cp dotenv .env
 
-# development
+# iniciar servicio de mysql (docker)
+./docker-mysql.sh
+
+# iniciar en development
 $ npm run start
 
-# watch mode
+# iniciar en modo watch
 $ npm run start:dev
 
-# production mode
+# iniciar en producción
 $ npm run start:prod
 ```
 
-## Test
+## Pruebas
 
 ```bash
-# unit tests
+# unitarias
 $ npm run test
 
-# e2e tests
+# de integración
 $ npm run test:e2e
 
 # test coverage
